@@ -1,0 +1,95 @@
+.pageShell {
+  background: var(--bg);
+}
+
+.loginCard {
+  max-width: 540px;
+}
+
+.divider {
+  border-top: 1px solid var(--borders);
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  font-family: 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', cursive;
+}
+
+.field {
+  border-bottom: 1px solid var(--borders);
+  padding-bottom: 10px;
+}
+
+.iconWrap {
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+}
+
+.iconWrap svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.forgotLink {
+  font-size: 0.95rem;
+}
+
+.loginButton {
+  letter-spacing: 0.04em;
+  font-size: 1.05rem;
+}
+
+.dividerWrap {
+  width: 100%;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background: var(--borders);
+}
+
+.dividerText {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: lowercase;
+}
+
+.googleButton {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--borders);
+  box-shadow: none;
+  transition: all 0.2s ease;
+}
+
+.googleIconSvg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.googleButton:hover {
+  background: var(--panel);
+  border-color: var(--primary);
+}
+
+.googleButton:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.mutedText {
+  color: var(--muted);
+}
+
+.mutedLink {
+  color: var(--muted);
+  text-decoration: none;
+}
